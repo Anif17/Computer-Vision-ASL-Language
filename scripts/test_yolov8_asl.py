@@ -158,7 +158,7 @@ def main():
                        default='dataset',
                        help='Testing mode: image, dataset, or batch')
     parser.add_argument('--source', type=str,
-                       default='American Sign Language Letters.v1-v1.yolov8/data.yaml',
+                       default='Dataset ASL Languauge/data.yaml',
                        help='Image path, data.yaml path, or folder path')
     parser.add_argument('--conf', type=float, default=0.25,
                        help='Confidence threshold')

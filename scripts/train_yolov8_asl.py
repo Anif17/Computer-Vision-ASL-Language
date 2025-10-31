@@ -14,7 +14,7 @@ def train_yolo_asl():
 
     # Set paths (go up one level from scripts/ to project root)
     project_root = Path(__file__).parent.parent
-    dataset_path = project_root / "American Sign Language Letters.v1-v1.yolov8"
+    dataset_path = project_root / "Dataset ASL Languauge"
     data_yaml = dataset_path / "data.yaml"
 
     print("=" * 60)

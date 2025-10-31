@@ -67,7 +67,7 @@ This project trains a YOLOv8/YOLO11 model to detect hand signs representing ASL 
 ### Dataset Structure
 
 ```
-American Sign Language Letters.v1-v1.yolov8/
+Dataset ASL Languauge/
 ├── data.yaml          # Dataset configuration
 ├── train/
 │   ├── images/       # Training images
@@ -161,7 +161,7 @@ python scripts/test_yolov8_asl.py --mode dataset
 ```bash
 python scripts/test_yolov8_asl.py \
   --mode image \
-  --source "American Sign Language Letters.v1-v1.yolov8/test/images/A22_jpg.rf.f02ad8558ce1c88213b4f83c0bc66bc8.jpg" \
+  --source "Dataset ASL Languauge/test/images/A22_jpg.rf.f02ad8558ce1c88213b4f83c0bc66bc8.jpg" \
   --conf 0.25
 ```
 
@@ -216,7 +216,7 @@ YOLO_ASL_Alphabet/
 ├── examples/                   # Usage examples
 │   └── quick_start.md         # Quick start guide
 │
-├── American Sign Language Letters.v1-v1.yolov8/  # Dataset (not in repo)
+├── Dataset ASL Languauge/      # Dataset (not in repo)
 │   ├── data.yaml
 │   ├── train/
 │   ├── valid/
