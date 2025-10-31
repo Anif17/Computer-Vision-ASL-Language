@@ -1,0 +1,25 @@
+# YOLOv8 ASL Alphabet Detection - Requirements
+# Python 3.8+
+
+# Core dependencies
+ultralytics>=8.3.0
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.6.0
+numpy>=1.23.0
+pillow>=7.1.2
+
+# Data processing
+pyyaml>=5.3.1
+scipy>=1.4.1
+
+# Visualization
+matplotlib>=3.3.0
+
+# Optional - GPU support
+# If you have NVIDIA GPU, install PyTorch with CUDA:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+
+# Optional - Additional tools
+# tensorboard>=2.0.0  # For training visualization
+# wandb  # For experiment tracking

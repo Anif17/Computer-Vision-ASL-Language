@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+nul
+
+# YOLO Training Outputs
+runs/
+outputs/
+wandb/
+
+# Model weights (only push best model, not all checkpoints)
+*.pt
+!best.pt
+
+# Dataset - Don't push large datasets to GitHub
+American Sign Language Letters.v1-v1.yolov8/
+Dataset ASL Languauge/
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.venv
+conda-meta/
+
+# Large files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Cache
+.cache/
+*.cache
+
+# Test outputs
+test_results/
+predictions/
